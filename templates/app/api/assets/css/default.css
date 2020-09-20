@@ -1,0 +1,152 @@
+/*
+// Copyright (c)2020 Quinn Michaels
+// Distributed under the MIT software license, see the accompanying
+// file LICENSE.md or http://www.opensource.org/licenses/mit-license.php.
+*/
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+header, main, footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+header {
+  top: 0;
+  height: 45px;
+  background-color: #000;
+  color: #eee;
+}
+header > h1 {
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+main {
+  top: 45px;
+  bottom: 45px;
+  height: calc(100% - 90px);
+  overflow: auto;
+}
+
+main > .content {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.splash {
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  margin: -1rem -2rem 0 -2rem;
+}
+.splash > .avatar {
+  text-align: center;
+}
+.splash > .avatar > img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.2);
+  background-color: #fff;
+}
+
+.splash  > h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.splash > p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  bottom: 0;
+  height: 30px;
+  background-color: #333;
+  color: #ccc;
+  line-height: 2;
+}
+
+a[title="back"] {
+  transition: .5s all ease;
+  position: fixed;
+  top: 0;
+  background: #333;
+  color: #ccc;
+  text-decoration: none;
+  height: 2rem;
+  line-height: 2;
+  margin: 0.4rem 0 0 .4rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+a[title="back"]:hover {
+  background: #ccc;
+  color: #333;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted;
+  margin: 3rem 0
+}
+
+pre {
+  border-radius: .5rem
+}
+
+h5 {
+  font-size: 1rem;
+  background-color: #ccc;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: .25rem .5rem;
+  margin: 0;
+  border: 1px solid #333;
+}
+h5 + p {
+  background-color: #fff9de;
+  border-radius: 0 0 .5rem .5rem;
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
+  border-bottom: 1px solid #333;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+}
+
+h5 + ul {
+  background-color: #fff9de;
+  border-radius: 0 0 .5rem .5rem;
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
+  border-bottom: 1px solid #333;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  list-style: none;
+}
+h5 + ul > li {
+  margin: .25rem 0;
+}
+
+h5 + ul > li > em {
+  display: inline-block;
+  width: 7rem;
+  font-size: .75rem;
+}
+
+h5 + pre {
+  margin: 0 0 1rem 0 !important;
+  border-radius: 0 0 .5rem .5rem;
+}

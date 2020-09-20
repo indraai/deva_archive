@@ -1,0 +1,9 @@
+{
+  "vars": {
+    "messages": {
+      "running": "🔵 :name: RUNNING",
+      "stopped": "🔴 :name: STOP",
+      "error": "💣 :name: ERROR!"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "vars": {
+    "answers": false,
+    "questions": [
+      {
+        "type": "input",
+        "name": "key",
+        "message": "KEY",
+        "default": "app"
+      },
+      {
+        "type": "input",
+        "name": "name",
+        "message": "NAME",
+        "default": "DEVA-APP"
+      },
+      {
+        "type": "input",
+        "name": "description",
+        "message": "DESCRIPTION",
+        "default": "THE DEVA APP OF AWESOME"
+      },
+      {
+        "type": "input",
+        "name": "author",
+        "message": "AUTHOR",
+        "default": "Quinn Michaels"
+      },
+      {
+        "type": "number",
+        "name": "port",
+        "message": "API PORT",
+        "default": 8080
+      },
+      {
+        "type": "number",
+        "name": "socket",
+        "message": "SOCKET PORT",
+        "default": 8081
+      },
+      {
+        "type": "list",
+        "name": "template",
+        "message": "TEMPLATE",
+        "choices": [
+          {
+            "name":"api (Express, Socket.io, Chuck, Error)",
+            "value":"api"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "name": "license",
+        "message": "LICENSE",
+        "choices": [
+          "Unlicense",
+          "ISC",
+          "MIT",
+          "Apache-2.0",
+          "BSD-2-Clause",
+          "BSD-3-Clause",
+          "GPL-2.0",
+          "GPL-3.0",
+          "LGPL-2.0",
+          "LGPL-2.1",
+          "LGPL-3.0",
+          "MPL-2.0",
+          "CDDL-1.0",
+          "EPL-2.0"
+        ]
+      }
+    ],
+    "paths": {
+      "copy_from": "",
+      "copy_to": "",
+      "copy_to_base": ""
+    },
+    "messages": {
+      "heading": "🐶🐶🐶 DEVA APP 🐶🐶🐶",
+      "welcome": "Next you will be guided through some basic\nquestions to assist in creating your\nnew DEVA Application.",
+      "que_heading": "BUILDING FILES",
+      "que_complete": "✅ QUE SUCCESS",
+      "app_created": "✅ APP COMPLETE:",
+      "folder": "📁",
+      "file": "📝"
+    },
+    "create": {
+      "files": [],
+      "directories": []
+    }
+  }
+}

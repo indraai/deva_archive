@@ -1,0 +1,20 @@
+{
+  "me": {
+    "key": "bin",
+    "name": "Command Line Deva Creator",
+    "prompt": {
+      "emoji": "😃",
+      "text": "bin",
+      "color": "yellow"
+    },
+    "voice": {
+      "speech": "Alex",
+      "speed": "1"
+    },
+    "profile": {
+      "avatar": "",
+      "gender": "M",
+      "describe": "Command Line Creator is the one who makes all the base code for the rest of the Deva in the system."
+    }
+  }
+}

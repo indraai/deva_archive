@@ -1,0 +1,37 @@
+{
+  "name": "@indra.ai/deva",
+  "version": "0.0.13",
+  "description": "Indra.ai Deva module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/indra.ai/deva.git"
+  },
+  "bin": {
+    "deva": "./bin/index.js"
+  },
+  "keywords": [
+    "Indra",
+    "Deva"
+  ],
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/indra.ai/deva/issues"
+  },
+  "homepage": "https://gitlab.com/indra.ai/deva#readme",
+  "engines": {
+    "node": ">6.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0"
+  },
+  "devDependencies": {
+    "@indra.ai/svarga": "^0.3.12",
+    "inquirer": "^7.3.3"
+  }
+}

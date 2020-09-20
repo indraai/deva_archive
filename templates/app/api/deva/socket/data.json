@@ -1,0 +1,9 @@
+{
+  "vars": {
+    "messages": {
+      "running": "🔵 SOCKET RUNNING",
+      "stopped": "🔴 SOCKET STOP",
+      "error": "💣 SOCKET ERROR!"
+    }
+  }
+}

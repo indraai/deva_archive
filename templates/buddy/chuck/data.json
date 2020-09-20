@@ -1,0 +1,10 @@
+{
+  "vars": {
+    "url": "http://api.icndb.com/jokes/random?exclude=[explicit]",
+    "messages": {
+      "running": "🔵 CHUCK RUNNING",
+      "stopped": "🔴 CHUCK STOP",
+      "error": "💣 CHUCK ERROR!"
+    }
+  }
+}

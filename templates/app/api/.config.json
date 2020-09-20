@@ -1,0 +1,26 @@
+{
+  "me": {
+    "key": ":key:",
+    "name": ":name:",
+    "description": ":description:",
+    "prompt": {
+      "emoji": "👨‍🔬",
+      "text": ":key:",
+      "color": "green"
+    },
+    "voice": {
+      "speech": "Alex",
+      "speed": 1
+    },
+    "profile": {
+      "avatar": "/assets/img/indra-avatar.png",
+      "background": "/assets/img/indra-background.jpg",
+      "gender": "M",
+      "describe": "The main DEVA APP"
+    }
+  },
+  "ports": {
+    "api": ":port:",
+    "socket": ":socket:"
+  }
+}

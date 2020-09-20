@@ -1,0 +1,12 @@
+{
+  "vars": {
+    "uri": "https://api.coinmarketcap.com/v1/ticker/",
+    "limit": 50,
+    "ticker": "BTC",
+    "messages": {
+      "running": "🔵 COIN RUNNING",
+      "stopped": "🔴 COIN STOP",
+      "error": "💣 COIN ERROR!"
+    }
+  }
+}

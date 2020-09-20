@@ -1,0 +1,23 @@
+{
+  "actions": ["help"],
+  "me": {
+    "key": "error",
+    "name": "Error Deva",
+    "description": "The Error Deva handles all the errors reported from the system.",
+    "prompt": {
+      "emoji": "❗️",
+      "text": "error",
+      "color": "redBright"
+    },
+    "voice": {
+      "speech": "Alex",
+      "speed": "1"
+    },
+    "profile": {
+      "avatar": "/assets/img/error-avatar.png",
+      "background": "/assets/img/error-splash.jpg",
+      "gender": "M",
+      "describe": "The Error Deva to manage all errors."
+    }
+  }
+}

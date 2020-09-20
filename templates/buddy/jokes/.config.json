@@ -1,0 +1,20 @@
+{
+  "me": {
+    "key": "jokes",
+    "name": "JOKES",
+    "prompt": {
+      "emoji": "🃏",
+      "text": "jok",
+      "color": "yellowBright"
+    },
+    "voice": {
+      "speech": "Alex",
+      "speed": "1"
+    },
+    "profile": {
+      "avatar": "",
+      "gender": "M",
+      "describe": "The Jokes Deva will return awesome jokes."
+    }
+  }
+}

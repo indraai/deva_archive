@@ -1,0 +1,22 @@
+{
+  "me": {
+    "key": "chuck",
+    "name": "Chuck Norris",
+    "description": "The Chuck Norris Deva will return the best jokes in The Universe!",
+    "prompt": {
+      "emoji": "🥋",
+      "text": "chuck",
+      "color": "yellowBright"
+    },
+    "voice": {
+      "speech": "Daniel",
+      "speed": 1
+    },
+    "profile": {
+      "avatar": "/assets/img/chuck-avatar.png",
+      "background": "/assets/img/chuck-splash.jpg",
+      "gender": "M",
+      "describe": "Get the best Chuck Norris jokes ever."
+    }
+  }
+}

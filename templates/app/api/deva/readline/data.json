@@ -1,0 +1,13 @@
+{
+  "vars": {
+    "actions": {
+      "default": "chatbot:chat"
+    },
+    "messages": {
+      "running": "🔵 READLINE RUNNING",
+      "stopped": "🔴 READLINE STOP",
+      "error": "💣 READLINE ERROR!",
+      "say_something": "Did you say something?"
+    }
+  }
+}

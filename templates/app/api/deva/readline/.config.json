@@ -1,0 +1,22 @@
+{
+  "me": {
+    "key": "readline",
+    "name": "READLINE DEVA",
+    "description": "The READLINE DEVA handles the terminal to the system and other DEVA through the command line interface.",
+    "prompt": {
+      "emoji": "💬",
+      "text": "readline",
+      "color": "greenBright"
+    },
+    "voice": {
+      "speech": "Alex",
+      "speed": 1
+    },
+    "profile": {
+      "avatar": "/assets/img/readline-avatar.png",
+      "background": "/assets/img/readline-splash.jpg",
+      "gender": "M",
+      "describe": "The Readline DEVA handles the terminal interface."
+    }
+  }
+}

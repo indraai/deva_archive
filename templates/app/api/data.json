@@ -1,0 +1,13 @@
+{
+  "vars": {
+    "wrapper": false,
+    "ready": [],
+    "counter": 0,
+    "messages": {
+      "error": "🛑 THERE WAS AN ERROR",
+      "deva_not_found": "🔴 DEVA NOT FOUND",
+      "default_route_online": "✅ THE DEFAULT ROUTE IS ONLINE"
+    },
+    "displayItems": ["me","config","vars","listeners","modules","func","methods"]
+  }
+}

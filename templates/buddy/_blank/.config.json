@@ -1,0 +1,22 @@
+{
+  "me": {
+    "key": ":key:",
+    "name": ":name:",
+    "description": ":description:",
+    "prompt": {
+      "emoji": "😃",
+      "text": ":key:",
+      "color": "white"
+    },
+    "voice": {
+      "speech": ":voice:",
+      "speed": "1"
+    },
+    "profile": {
+      "avatar": ":avatar:",
+      "background": ":background:",
+      "gender": ":gender:",
+      "describe": ":describe:"
+    }
+  }
+}

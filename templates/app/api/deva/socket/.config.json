@@ -1,0 +1,22 @@
+{
+  "me": {
+    "key": "socket",
+    "name": "SOCKET DEVA",
+    "description": "The SOCKET DEVA provides a socket.io interface that allows enhanced communication with external servics/interfaces.",
+    "prompt": {
+      "emoji": "🔌",
+      "text": "socket",
+      "color": "cyan"
+    },
+    "voice": {
+      "speech": "Alex",
+      "speed": 1
+    },
+    "profile": {
+      "avatar": "/assets/img/socket-avatar.png",
+      "background": "/assets/img/socket-splash.jpg",
+      "gender": "M",
+      "describe": "Socket DEVA"
+    }
+  }
+}

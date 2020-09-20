@@ -1,0 +1,10 @@
+{
+  "vars": {
+    "url": "https://icanhazdadjoke.com/",
+    "messages": {
+      "running": "🔵 JOKES RUNNING",
+      "stopped": "🔴 JOKES STOPPED",
+      "error": "💣 JOKES ERROR!"
+    }
+  }
+}

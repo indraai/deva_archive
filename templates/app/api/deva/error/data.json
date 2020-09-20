@@ -1,0 +1,9 @@
+{
+  "vars": {
+    "messages": {
+      "running": "🔵 Error Deva RUNNING",
+      "stopped": "🔴 Error Deva STOP",
+      "error": "💣 Error Deva ERROR!"
+    }
+  }
+}

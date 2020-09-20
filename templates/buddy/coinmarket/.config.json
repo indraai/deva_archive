@@ -1,0 +1,20 @@
+{
+  "me": {
+    "key": "coin",
+    "name": "COINMARKET",
+    "prompt": {
+      "emoji": "🤑",
+      "text": "cap",
+      "color": "white"
+    },
+    "voice": {
+      "name": "Alex",
+      "speed": 1
+    },
+    "profile": {
+      "avatar": "",
+      "gender": "M",
+      "describe": "Coinmarket Deva"
+    }
+  }
+}
