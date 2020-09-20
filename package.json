@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/indra.ai/deva.git"
+    "url": "git+ssh://git@github.com:indraai/deva.git"
   },
   "bin": {
     "deva": "./bin/index.js"
@@ -20,18 +20,16 @@
   "author": "Quinn Michaels",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/indra.ai/deva/issues"
+    "url": "https://github.com/indraai/deva/issues"
   },
-  "homepage": "https://gitlab.com/indra.ai/deva#readme",
+  "homepage": "https://github.com/indraai/deva#readme",
   "engines": {
-    "node": ">6.0"
+    "node": ">12.0"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
-    "commander": "^6.1.0"
-  },
-  "devDependencies": {
     "@indra.ai/svarga": "^0.3.12",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
     "inquirer": "^7.3.3"
   }
 }
