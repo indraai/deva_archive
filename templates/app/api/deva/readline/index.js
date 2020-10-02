@@ -149,6 +149,13 @@ const READLINE = new Svarga({
         q: {
           bot: this.me,
           text: input,
+          meta: {
+            format: '',
+            type: '',
+          },
+          data: false,
+          error: false,
+          created: Date.now(),
         },
         created: Date.now(),
       }
